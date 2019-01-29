@@ -1,0 +1,25 @@
+{
+  "name": "aws-layer-pack",
+  "version": "0.0.2",
+  "description": "Create dependency package for deployment to AWS Lambda as a Layer",
+  "bin": {
+    "aws-layer-pack": "bin/aws-layer-pack.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "Layer",
+    "Pack"
+  ],
+  "author": "Jason Rohman",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "del": "^3.0.0"
+  },
+  "devDependencies": {},
+  "preferGlobal": true
+}
